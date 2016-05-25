@@ -24,36 +24,33 @@ namespace Q334_IncreasingTriSubSeq
         public bool IncreasingTriplet(int[] nums)
         {
             if (nums.Length < 3) return false;
-            int i, j, k;
-            i = 0;
-            
-            // find min from the beginning
-            while(nums[i] >= nums[i + 1]){
-                i++;
-                if (i >= nums.Length - 1) return false;
-            }
 
-            // fix max from the end
-            k = nums.Length-1;
-            while (nums[k] <= nums[k - 1])
+            // the point is, for a num, three possibility
+            // 1. smaller than min
+            // 2. between min and secMin
+            // 3. larger than secMin
+            // 1 and 2 will lower the boundary, 3 is the exit criteria to return true
+            // at the end, the min may not be the exact num that composed the triplet, 
+            // but it does not affect the correctness
+            int min = int.MaxValue, secMin = int.MaxValue;
+
+            for (int i = 0; i < nums.Length;i++ )
             {
-                k--;
-                if (k <= 1) return false;
-            }
-
-            if (k - i <= 1) return false;
-
-            j = i + 1;
-
-            while (j<k)
-            {
-                if (nums[i] < nums[j] && nums[j] < nums[k])
+                if(nums[i]<=min){
+                    min = nums[i];
+                }
+                else if(nums[i]<=secMin)
+                {
+                    secMin = nums[i];
+                }
+                else
+                {
                     return true;
-                     
-                j++;
-            }
+                }
 
+            }
             return false;
+            
         }
 
         // this solution does not meet the O(n) time complexity req

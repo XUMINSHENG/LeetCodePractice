@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q106_107_ConstructBT", "Q10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q114FlattenBT", "Q114FlattenBT\Q114FlattenBT.csproj", "{716CA8FC-1D78-44CA-B9FB-BF1289AF134F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q92ReverseLinkedListII", "Q92ReverseLinkedListII\Q92ReverseLinkedListII.csproj", "{91172518-9F08-41A5-BEB7-C9FE09BE2D36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q092ReverseLinkedListII", "Q92ReverseLinkedListII\Q092ReverseLinkedListII.csproj", "{91172518-9F08-41A5-BEB7-C9FE09BE2D36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q297SeriDeseBT", "Q297SeriDeseBT\Q297SeriDeseBT.csproj", "{60ACE6D8-9181-4BA8-8B16-F68317A6BC3B}"
 EndProject
@@ -39,17 +39,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q309BestTimeForBuySell", "Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q341_FlatenNestedListIterator", "Q341_FlatenNestedListIterator\Q341_FlatenNestedListIterator.csproj", "{D281AF72-0F28-4CDB-BC00-55FF4182212B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q78_Subset", "Q78_Subset\Q78_Subset.csproj", "{540C0C84-96E2-4FBE-9BDC-D66BCEA5B2FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q078_Subset", "Q78_Subset\Q078_Subset.csproj", "{540C0C84-96E2-4FBE-9BDC-D66BCEA5B2FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q334_IncreasingTriSubSeq", "Q334_IncreasingTriSubSeq\Q334_IncreasingTriSubSeq.csproj", "{0FB8B08F-D02D-4EDE-AA80-867E0ABC5498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q34_SearchForRange", "Q34_SearchForRange\Q34_SearchForRange.csproj", "{71A63A27-313B-4164-B2FE-AF62D6A78ED3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q034_SearchForRange", "Q34_SearchForRange\Q034_SearchForRange.csproj", "{71A63A27-313B-4164-B2FE-AF62D6A78ED3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q124_BinaryTreeDFS", "Q124_BinaryTreeDFS\Q124_BinaryTreeDFS.csproj", "{C686D826-AF1B-4687-8C07-AC062A0DA568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q53_MaximunSubArray", "Q53_MaximunSubArray\Q53_MaximunSubArray.csproj", "{750BA542-9C8B-4D2E-AC9D-7E7D43013022}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q053_MaximunSubArray", "Q53_MaximunSubArray\Q053_MaximunSubArray.csproj", "{750BA542-9C8B-4D2E-AC9D-7E7D43013022}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q133_CloneGraph", "Q133_CloneGraph\Q133_CloneGraph.csproj", "{BED62185-F62B-4157-8826-73E9F1667FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q332_ReconstructGraph", "Q332_ReconstructGraph\Q332_ReconstructGraph.csproj", "{E3FF79BC-36E3-4438-860F-F4395EC4F202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q240_Search2DMatrix", "Q240_Search2DMatrix\Q240_Search2DMatrix.csproj", "{073E55A2-51A0-405E-A4CF-A32B88B44349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q148_SortList", "Q148_SortList\Q148_SortList.csproj", "{6B4FAFFD-2DE4-4029-BE39-8C92FE254F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q033_SearchInRotatedArray", "Q33_SearchInRotatedArray\Q033_SearchInRotatedArray.csproj", "{96833564-7F66-4605-A139-B240FD6E9635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q300_LongestIncSubseq", "Q300_LongestIncSubseq\Q300_LongestIncSubseq.csproj", "{8A5D697C-902B-49C2-AA95-FD4708FDEF64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberTheoryRelated", "NumberTheoryRelated\NumberTheoryRelated.csproj", "{FC79759E-7768-4A7C-9859-89E18F07F87D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +165,30 @@ Global
 		{BED62185-F62B-4157-8826-73E9F1667FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BED62185-F62B-4157-8826-73E9F1667FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BED62185-F62B-4157-8826-73E9F1667FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FF79BC-36E3-4438-860F-F4395EC4F202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FF79BC-36E3-4438-860F-F4395EC4F202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FF79BC-36E3-4438-860F-F4395EC4F202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FF79BC-36E3-4438-860F-F4395EC4F202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073E55A2-51A0-405E-A4CF-A32B88B44349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073E55A2-51A0-405E-A4CF-A32B88B44349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073E55A2-51A0-405E-A4CF-A32B88B44349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073E55A2-51A0-405E-A4CF-A32B88B44349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4FAFFD-2DE4-4029-BE39-8C92FE254F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4FAFFD-2DE4-4029-BE39-8C92FE254F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4FAFFD-2DE4-4029-BE39-8C92FE254F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4FAFFD-2DE4-4029-BE39-8C92FE254F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96833564-7F66-4605-A139-B240FD6E9635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96833564-7F66-4605-A139-B240FD6E9635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96833564-7F66-4605-A139-B240FD6E9635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96833564-7F66-4605-A139-B240FD6E9635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5D697C-902B-49C2-AA95-FD4708FDEF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5D697C-902B-49C2-AA95-FD4708FDEF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5D697C-902B-49C2-AA95-FD4708FDEF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5D697C-902B-49C2-AA95-FD4708FDEF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC79759E-7768-4A7C-9859-89E18F07F87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC79759E-7768-4A7C-9859-89E18F07F87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC79759E-7768-4A7C-9859-89E18F07F87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC79759E-7768-4A7C-9859-89E18F07F87D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

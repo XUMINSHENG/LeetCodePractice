@@ -29,11 +29,13 @@ namespace Q53_MaximunSubArray
             for (int i = 0; i < nums.Length; i++)
             {
                 sum += nums[i];
-                if (max < sum)
+                if (sum > max)
                 {
                     max = sum;
                 }
 
+                // when sum less than 0, accumulated sum becomes negative assets
+                // clear and reset the start pointer to cursor
                 if (sum < 0)
                 {
                     sum = 0;
